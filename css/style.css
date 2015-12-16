@@ -5,3 +5,26 @@ div {
     border: 1px solid Chocolate;
 }
 /* add css below */
+
+.top-navigation {
+	background-color: #fff;
+}
+
+.top-navigation .content {
+	width: 970px;
+    height: 70px;
+    margin: 0 auto;
+	padding: 0 15px;
+}
+
+.logo {
+	height: 70px;
+}
+
+.top-navigation .links {
+	float: right;
+}
+
+.links li {
+	display: inline-block;
+}
