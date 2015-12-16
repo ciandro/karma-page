@@ -1,13 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
     background-color: LightGray;
 }
 div {
-    border: 1px solid Chocolate;
+    /*border: 1px solid Chocolate;*/
 }
 /* add css below */
 
 .top-navigation {
 	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
 }
 
 .top-navigation .content {
@@ -15,6 +27,11 @@ div {
     height: 70px;
     margin: 0 auto;
 	padding: 0 15px;
+}
+
+.top-navigation .links .active {
+	color: #4c5058;
+    font-weight: 500;
 }
 
 .logo {
@@ -25,6 +42,25 @@ div {
 	float: right;
 }
 
+.links {
+	
+}
+
 .links li {
 	display: inline-block;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.links li a {
+	text-decoration: none;
+}
+
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
 }
